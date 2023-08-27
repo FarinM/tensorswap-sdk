@@ -8,9 +8,9 @@ export type TensorBid = {
       "value": "1"
     },
     {
-      "name": "TBID_FEE_BPS",
+      "name": "TBID_TAKER_FEE_BPS",
       "type": "u16",
-      "value": "100"
+      "value": "140"
     },
     {
       "name": "MAX_EXPIRY_SEC",
@@ -285,16 +285,6 @@ export type TensorBid = {
           "name": "bidder",
           "isMut": true,
           "isSigner": false
-        },
-        {
-          "name": "tswap",
-          "isMut": false,
-          "isSigner": false
-        },
-        {
-          "name": "cosigner",
-          "isMut": false,
-          "isSigner": true
         },
         {
           "name": "systemProgram",
@@ -576,9 +566,9 @@ export const IDL: TensorBid = {
       "value": "1"
     },
     {
-      "name": "TBID_FEE_BPS",
+      "name": "TBID_TAKER_FEE_BPS",
       "type": "u16",
-      "value": "100"
+      "value": "140"
     },
     {
       "name": "MAX_EXPIRY_SEC",
@@ -853,16 +843,6 @@ export const IDL: TensorBid = {
           "name": "bidder",
           "isMut": true,
           "isSigner": false
-        },
-        {
-          "name": "tswap",
-          "isMut": false,
-          "isSigner": false
-        },
-        {
-          "name": "cosigner",
-          "isMut": false,
-          "isSigner": true
         },
         {
           "name": "systemProgram",
